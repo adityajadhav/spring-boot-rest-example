@@ -20,23 +20,28 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
-	<!-- <dependency> <groupId>com.aj.todoapp.data</groupId> <artifactId>todo-app-data</artifactId> 
-		</dependency> -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-actuator</artifactId>
+		</dependency>
+
+		<!-- <dependency> <groupId>com.aj.todoapp.data</groupId> <artifactId>todo-app-data</artifactId> 
+			</dependency> -->
 
 		<dependency>
 			<groupId>com.aj.todoapp.service</groupId>
 			<artifactId>todo-app-service</artifactId>
 		</dependency>
-		
-		
+
+
 		<dependency>
 			<groupId>com.aj.todoapp.framework</groupId>
 			<artifactId>todo-app-framework</artifactId>
 		</dependency>
-		
+
 
 	</dependencies>
-	
+
 	<build>
 		<plugins>
 			<plugin>

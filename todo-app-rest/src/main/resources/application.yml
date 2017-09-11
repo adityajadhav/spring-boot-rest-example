@@ -3,9 +3,14 @@ spring.datasource:
     url: jdbc:h2:mem:bootexample;MODE=MySQL
     
 server:
-  port: 8090
+  port: 8080
   
-  
+#management endpoints on a separate port
+management:
+  port: 8081
+  security:
+    enabled: false # management port is internal only. no need to secure it.
+
 logging:
   file: boot_example.log
   org.hibernate: INFO
