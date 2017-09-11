@@ -59,8 +59,15 @@ Accept: application/json
 Content-Type: application/json
 ```
 
+### Get information about system health, configurations, etc.
+```
+http://localhost:8081/health
+http://localhost:8081/env
+http://localhost:8081/info
+http://localhost:8081/metrics
+http://localhost:8081/logfile
 
-
+```
 
 
 
