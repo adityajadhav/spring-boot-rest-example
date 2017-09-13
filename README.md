@@ -68,6 +68,7 @@ http://localhost:8081/metrics
 http://localhost:8081/logfile
 
 ```
-
-
-
+### To view Swagger 2 API docs
+```
+Run the server and browse to localhost:8080/swagger-ui.html
+```
