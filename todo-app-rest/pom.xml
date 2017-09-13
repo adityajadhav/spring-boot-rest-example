@@ -25,6 +25,18 @@
 			<artifactId>spring-boot-actuator</artifactId>
 		</dependency>
 
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>2.5.0</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>2.5.0</version>
+		</dependency>
+
 		<!-- <dependency> <groupId>com.aj.todoapp.data</groupId> <artifactId>todo-app-data</artifactId> 
 			</dependency> -->
 
@@ -38,6 +50,8 @@
 			<groupId>com.aj.todoapp.framework</groupId>
 			<artifactId>todo-app-framework</artifactId>
 		</dependency>
+
+
 
 
 	</dependencies>
